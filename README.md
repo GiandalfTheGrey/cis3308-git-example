@@ -7,3 +7,5 @@ The most important git commands are:
 -'hello again'
 
 This line sucks
+
+another new line
