@@ -1,0 +1,201 @@
+
+html {
+  background-color: rgb(25, 26, 25);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(46, 41, 41);
+  padding: 2%; 
+  height: 30px;
+  
+}
+
+.logo{
+  height: 55px;
+  width: auto;
+   margin-left: 5%;
+  border-radius: 4px;
+  margin-top: 3px; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.topMenu {
+  margin-left: auto;
+  padding: 2%;
+  color: white;
+  background-color: #a41e35;
+  border-radius: 4px
+}
+
+.topMenu:hover {
+  color: #a41e35; 
+  background-color: white;
+}
+
+.breadcrumb-nav {
+  color: #a41e35;
+  /* underline path
+   https://www.w3schools.com
+  /cssref/pr_text_text-decoration.php*/
+  text-decoration: underline;
+  
+}
+
+.sidebar {
+
+  background-color: rgb(46, 41, 41);
+  color: white;
+  width: 150px;
+  height: 100px;
+  margin: 0%;
+  padding-right: 40px;
+  margin-top: 5%;
+  margin-right: 100px;
+  border-radius: 6px;
+  margin-bottom: 60%;
+  
+}
+
+.categories
+{
+  /*https://www.w3schools.com/howto/
+  howto_css_list_without_bullets.asp
+  */
+  list-style-type: none;
+  font-size: small;
+  margin: 4%;
+  width: 10em;
+  margin-left: -20px;
+}
+
+.categories :hover {
+  color: #a41e35;
+}
+
+.content-page {
+  display: flex;
+  justify-content: center;
+}
+
+.content > header{
+  background-color: rgb(25, 26, 25);
+  color: white; 
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  padding-right: 20%;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80%;
+  margin-top: 5%;
+}
+
+
+.tool-cards{
+  margin-right: 130%;
+}
+
+.entries{
+  list-style-type: none;
+  color: white; 
+  padding-right: 10%;
+  
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+.entries li{
+  margin: 80px;
+  margin-left: 5%;
+  width: 150%;
+  background-color: rgb(46, 41, 41);
+  text-align: left;
+  padding: 10%;
+  padding-bottom: 7%;
+  padding-top: 5%;
+  border-radius: 6px;
+ 
+}
+
+.entries h1{
+  font-weight: bold;
+  margin: 0;
+  margin-left: -20%;
+  width: 150%;
+
+  padding-left: 120px;
+ 
+
+}
+
+.metadata{
+
+    margin-top: 8%;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rating{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: -1.5%;
+  /* margin: 0; */
+  align-items: center;
+}
+
+.rating li.circle{
+  margin: 10px;
+  color: #a41e35;
+  background-color: #a41e35;
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  border-radius: 15px;
+}
+
+li.rate{
+ 
+  margin: 0;
+}
+
+.rating li.circle:hover { 
+  background-color: #a41e35;
+  color: white; 
+  transform: scale(1.5);
+  /*https://www.geeksforgeeks.org/css/how-to-expand-panel-on-hover-in-css/*/
+}
+
+.rating li.selected {
+  background-color: white;
+  color: #a41e35;
+  transform: scale(1.5);
+}
+
+footer{
+  
+  background-color: rgb(46, 41, 41);
+  padding-bottom: 600px;  
+  margin-top: 5%;
+  width: 100%;
+  height: 10px;
+  
+  
+}
